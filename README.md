@@ -17,6 +17,7 @@ Superpowers is a complete software development methodology for your coding agent
   - [Gemini CLI](#gemini-cli)
   - [GitHub Copilot CLI](#github-copilot-cli)
   - [Grok Build CLI](#grok-build-cli)
+  - [IBM Bob](#ibm-bob)
   - [Kimi Code](#kimi-code)
   - [OpenCode](#opencode)
   - [Pi](#pi)
@@ -200,6 +201,19 @@ Superpowers is available via the [official Grok plugin marketplace](https://gith
   ```text
   /marketplace
   ```
+
+### IBM Bob
+
+Bob loads plugins from `~/.bob/plugins/<name>/`. Clone this repository there:
+
+```bash
+git clone https://github.com/obra/superpowers ~/.bob/plugins/superpowers
+```
+
+Restart Bob, then in Bob Settings → **Auto-Approve**, turn on **Skills**, and
+work in **Agent** mode. Update with `git -C ~/.bob/plugins/superpowers pull`.
+
+- Detailed docs: [docs/README.bob.md](docs/README.bob.md)
 
 ### Kimi Code
 

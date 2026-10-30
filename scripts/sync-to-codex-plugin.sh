@@ -78,6 +78,7 @@ EXCLUDES=(
   "/docs/"
   "/evals/"
   "/lib/"
+  "/rules-agent/"
   "/scripts/"
   "/tests/"
   "/tmp/"
